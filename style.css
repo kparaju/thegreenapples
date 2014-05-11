@@ -1,0 +1,157 @@
+/*
+Theme Name: The Green Apples
+Theme URI: http://thegreenapples.org/wp-themes/thegreenapples
+Author: Kshitij Parajuli
+Author URI: http://kshitijparajuli.com/
+Description: Theme for thegreenapples.org, the website for Environmentalists For Education Reform
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: thegreenapples
+*/
+
+body {
+	font-family: Myriad Pro;
+}
+
+.container {
+	max-width: 852px;
+}
+
+.navigation-cotainer-wrapperw {	
+	background: white url('img/page-bg.png');
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.navigation-container-wrapper{
+	background:  url('img/header-bg.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.tga-header-nav {
+	text-align: center;
+	padding-bottom: 30px;
+	height: 155px;
+	color: white;
+	padding-top: 35px;
+}
+.tga-header-nav ul a, .greyfoot-nav ul a {
+	color: #eee;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+.tga-header-nav ul {
+	list-style-type: none;
+	font-size: 20px;
+	padding-left: 0;
+}
+.tga-header-nav ul li {
+	display: inline;
+	padding: 0px 23px;
+	border-right: 1px solid white;
+}
+.tga-header-nav ul li.current-menu-item a{
+	color: #fff;
+}
+
+.tga-header-nav ul li:last-child {
+	border-right: 0px;
+}
+
+.tga-header-logo {
+	height: 190px;
+	background: url('img/logo-full.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+.greenfoot-wrapper {
+	background: url('img/green-footer-bg.png');
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #578c3e;
+	margin-top: 45px;
+}
+
+.greyfoot-wrapper {
+	background: #5a5a5a;
+	color: white;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.greyfoot-nav {
+	font-family: Arial;
+	text-align: center;
+}
+.greyfoot-nav ul {
+	list-style-type: none;
+	padding-left:0;
+}
+.greyfoot-nav ul li {
+	display: inline;
+	padding: 0px 10px;
+	border-right: 1px solid white;
+}
+.greyfoot-nav ul li:last-child {
+	border-right: 0px;
+}
+
+
+.tagline {
+	font-size: 20px;
+	text-align: center;
+	color: #838483;
+	margin: 35px 0px;
+}
+
+.content {
+	color: #838483;
+	font-size: 18px;
+	text-align: center;
+	margin: 35px 0;
+}
+
+.bignav > div {
+	display: inline-block;
+	margin-right: 15px;
+}
+.bignav > div:last-child {
+	margin-right: 0px;
+}
+.bignav > div > div {
+	height: 155px;
+	width: 155px;
+}
+.bignav > div > span {
+	display: block;
+	font-size: 20px;
+	color: #838483;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.frontpage-blog {
+	background: #578c3e;
+	color: white;
+	text-align: center;
+}
+.frontpage-blog .fpblog-title, .frontpage-blog .fpblog-footer {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.frontpage-blog .fpblog-title {
+	font-size: 27px;
+	border-bottom: 1px solid white;
+	padding-bottom: 20px;
+}
+.frontpage-blog .fpblog-footer {
+	font-size: 20px;
+	border-top: 1px solid white;
+	padding-top: 20px;
+}
