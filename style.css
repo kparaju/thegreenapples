@@ -115,24 +115,61 @@ body {
 	margin: 35px 0;
 }
 
-.bignav > div {
-	display: inline-block;
-	margin-right: 15px;
+.bignav ul.menu {
+	list-style-type: none;
+	padding-left: 0;
+	text-align: center;
 }
-.bignav > div:last-child {
+.bignav ul.menu a {
+	color: #838483;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: lowercase;
+	width: 155px;
+	height: 188px;
+	display: inline-block;
+}
+
+.bignav ul.menu li:first-child {
+	display: none; /* hide "home" */
+}
+.bignav ul.menu li {
+	display: inline;
+	margin-right: 15px;
+	text-indent: -9999px;
+}
+
+.bignav ul.menu li:last-child {
 	margin-right: 0px;
 }
-.bignav > div > div {
-	height: 155px;
-	width: 155px;
+
+/* big navigation button css */
+
+.bignav ul.menu a[title="about-us"] {
+	background: url('img/nav-about-us.png') no-repeat;
+	background-size: contain;
 }
-.bignav > div > span {
-	display: block;
-	font-size: 20px;
-	color: #838483;
-	text-align: center;
-	margin: 20px 0;
+
+.bignav ul.menu a[title="be-informed"] {
+	background: url('img/nav-be-informed.png') no-repeat;
+	background-size: contain;
 }
+
+.bignav ul.menu a[title="get-involved"] {
+	background: url('img/nav-get-involved.png') no-repeat;
+	background-size: contain;
+}
+
+.bignav ul.menu a[title="donate-now"] {
+	background: url('img/nav-donate-now.png') no-repeat;
+	background-size: contain;
+}
+
+.bignav ul.menu a[title="contact-us"] {
+	background: url('img/nav-contact-us.png') no-repeat;
+	background-size: contain;
+}
+
 
 .frontpage-blog {
 	background: #578c3e;

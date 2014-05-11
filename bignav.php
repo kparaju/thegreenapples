@@ -1,4 +1,13 @@
 <div class="bignav row">
+  
+  <?php wp_nav_menu(array(
+    'theme_location' => 'main-nav',
+    'depth' => 1
+  )); ?>
+  <br />
+
+
+  <!-- 
   <div>
     <div class="bignav-button" style="background: #d8cb00"></div>
     <span>about us</span>
@@ -19,4 +28,5 @@
     <div style="background: #b40000"></div>
     <span>contact us</span>
   </div>
+-->
 </div>
