@@ -26,7 +26,10 @@
         <div class="container">
           <div class="tga-header">
             <div class="tga-header-nav">
-              <?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
+              <?php wp_nav_menu(array(
+                'theme_location' => 'main-nav',
+                'depth' => 1
+              )); ?>
             </div>
           </div>
         </div>
