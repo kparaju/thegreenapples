@@ -10,6 +10,7 @@ get_header();
 	?>
 </div>
 
+<hr />
 <?php
 get_template_part('bignav');
 get_footer();

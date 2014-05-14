@@ -2,11 +2,15 @@
 get_header();
 ?>
 <div class="row">
-	<div class="col-md-8" style="background:#b40000; height: 350px">
-		1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+	<div class="frontpage-featured">
+
 	</div>
-	<div class="col-md-4" style="background:#8d00c8; height: 350px">
-		1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 
+	<div class="frontpage-featured-nav">
+		<?php
+		wp_nav_menu(array(
+		    'theme_location' => 'frontpage-featured-nav',
+		    'depth' => 1
+		)); ?>
 	</div>
 </div>
 

@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-	max-width: 852px;
+	max-width: 915px;
 }
 
 .navigation-cotainer-wrapperw {	
@@ -125,7 +125,7 @@ body {
 	font-size: 20px;
 	text-decoration: none;
 	text-transform: lowercase;
-	width: 155px;
+	width: 168px;
 	height: 188px;
 	display: inline-block;
 }
@@ -170,6 +170,62 @@ body {
 	background-size: contain;
 }
 
+.frontpage-featured {
+	background: url('img/reforming_education.png') no-repeat;
+	width: 647px;
+	height: 356px;
+	display: inline-block;
+	float: left;
+}
+
+.frontpage-featured-nav {
+	display: inline-block;
+	width: 268px;
+	height: 356px;
+}
+
+.frontpage-featured-nav ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+.frontpage-featured-nav ul li a {
+	display: block;
+	height: 110px;
+	width: 100%;
+	background: #8d00c8;
+	color: #fff;
+	font-size: 23px;
+	text-transform: lowercase;
+	margin-top: 11px;
+	margin-left: 10px;
+	text-align: left;
+	text-indent: 20px;
+	line-height: 115px;
+}
+
+.frontpage-featured-nav ul li a[title='donate'] {
+
+}
+
+.frontpage-featured-nav ul li a[title='get-involved'] {
+	background: #b40000;
+}
+
+.frontpage-featured-nav ul li a[title='be-informed'] {
+	background: #d8cb00;
+}
+
+
+.frontpage-featured-nav ul li a:hover {
+	text-decoration: none;
+}
+.frontpage-featured-nav ul li:first-child a {
+	margin-top: 2px;
+}
+
+.frontpage-featured-nav ul li:last-child a {
+	padding-top: 1px;
+}
 
 .frontpage-blog {
 	background: #578c3e;
