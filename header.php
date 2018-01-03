@@ -16,7 +16,7 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <!-- style.css -->
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_MD3j7UmBRFfVqnGB48r3A_olcnUBLNA"> </script>
 
   </head>
 
@@ -24,6 +24,10 @@
     <div class="navigation-cotainer-wrapperw">
       <div class="navigation-container-wrapper">
         <div class="container">
+          <a href="#" class="nav-button">
+            <span></span>
+          </a>
+
           <div class="tga-header">
             <div class="tga-header-nav">
               <?php wp_nav_menu(array(
@@ -39,6 +43,7 @@
     <div class="container">
       <div class="tga-header">
         <div class="tga-header-logo">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo_new.png" alt="" class="logo-img" />
         </div>
       </div>
 
